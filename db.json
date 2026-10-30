@@ -1,0 +1,424 @@
+{
+  "rooms": [
+    {
+      "id": "1",
+      "roomNumber": "101",
+      "type": "Single",
+      "pricePerNight": 2200,
+      "capacity": 1,
+      "description": "Quiet single room with private bathroom, work desk, and courtyard view.",
+      "amenities": [
+        "Single Bed",
+        "Attached Bathroom",
+        "Free Wi-Fi",
+        "Air Conditioning",
+        "Daily Housekeeping"
+      ],
+      "image": "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=900&q=80",
+      "status": "Available",
+      "floor": 1
+    },
+    {
+      "id": "2",
+      "roomNumber": "102",
+      "type": "Single",
+      "pricePerNight": 2400,
+      "capacity": 1,
+      "description": "Single room on the ground floor with work table and modern bathroom.",
+      "amenities": [
+        "Single Bed",
+        "Work Desk",
+        "Private Bathroom",
+        "Smart TV",
+        "Mini Refrigerator"
+      ],
+      "image": "https://images.unsplash.com/photo-1591088398332-8a7791972843?auto=format&fit=crop&w=900&q=80",
+      "status": "Occupied",
+      "floor": 1
+    },
+    {
+      "id": "3",
+      "roomNumber": "201",
+      "type": "Double",
+      "pricePerNight": 3600,
+      "capacity": 2,
+      "description": "Comfortable double room with queen bed, wardrobe, and street view.",
+      "amenities": [
+        "Queen Bed",
+        "Free Wi-Fi",
+        "LED TV",
+        "Wardrobe",
+        "Hot Water 24/7"
+      ],
+      "image": "https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&w=900&q=80",
+      "status": "Available",
+      "floor": 2
+    },
+    {
+      "id": "4",
+      "roomNumber": "202",
+      "type": "Double",
+      "pricePerNight": 3800,
+      "capacity": 2,
+      "description": "Spacious double bedroom with balcony access and attached bathroom.",
+      "amenities": [
+        "Queen Bed",
+        "Balcony",
+        "Tea/Coffee Maker",
+        "Free Wi-Fi",
+        "Intercom"
+      ],
+      "image": "https://images.unsplash.com/photo-1566665797739-1674de7a421a?auto=format&fit=crop&w=900&q=80",
+      "status": "Occupied",
+      "floor": 2
+    },
+    {
+      "id": "5",
+      "roomNumber": "203",
+      "type": "Double",
+      "pricePerNight": 4000,
+      "capacity": 2,
+      "description": "Corner double room with extra natural light and seating area.",
+      "amenities": [
+        "Queen Bed",
+        "Seating Chairs",
+        "Large Bathroom",
+        "Free Wi-Fi",
+        "Luggage Rack"
+      ],
+      "image": "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=900&q=80",
+      "status": "Available",
+      "floor": 2
+    },
+    {
+      "id": "6",
+      "roomNumber": "301",
+      "type": "Deluxe",
+      "pricePerNight": 5500,
+      "capacity": 3,
+      "description": "Deluxe king room with sofa bed, spacious dressing area, and bathtub.",
+      "amenities": [
+        "King Bed",
+        "Sofa Bed",
+        "Bathtub",
+        "Free Wi-Fi",
+        "Electric Kettle",
+        "Room Service"
+      ],
+      "image": "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?auto=format&fit=crop&w=900&q=80",
+      "status": "Available",
+      "floor": 3
+    },
+    {
+      "id": "7",
+      "roomNumber": "302",
+      "type": "Deluxe",
+      "pricePerNight": 5200,
+      "capacity": 3,
+      "description": "Deluxe twin room equipped with twin beds and additional rollaway couch.",
+      "amenities": [
+        "Twin Beds",
+        "Extra Couch",
+        "Modern Bathroom",
+        "Free Wi-Fi",
+        "Smart TV"
+      ],
+      "image": "https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?auto=format&fit=crop&w=900&q=80",
+      "status": "Available",
+      "floor": 3
+    },
+    {
+      "id": "8",
+      "roomNumber": "303",
+      "type": "Deluxe",
+      "pricePerNight": 5800,
+      "capacity": 3,
+      "description": "Large deluxe corner room with city view and premium wooden furnishings.",
+      "amenities": [
+        "King Bed",
+        "Corner View",
+        "Walk-in Wardrobe",
+        "Free Wi-Fi",
+        "Mini Refrigerator"
+      ],
+      "image": "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=900&q=80",
+      "status": "Maintenance",
+      "floor": 3
+    },
+    {
+      "id": "9",
+      "roomNumber": "401",
+      "type": "Suite",
+      "pricePerNight": 8500,
+      "capacity": 4,
+      "description": "Executive suite with separate living area, sofa set, and master bedroom.",
+      "amenities": [
+        "Separate Living Room",
+        "King Bed",
+        "Sofa Cum Bed",
+        "Dining Table",
+        "Free Wi-Fi",
+        "Microwave"
+      ],
+      "image": "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=900&q=80",
+      "status": "Occupied",
+      "floor": 4
+    },
+    {
+      "id": "10",
+      "roomNumber": "402",
+      "type": "Suite",
+      "pricePerNight": 9200,
+      "capacity": 4,
+      "description": "Family suite with private balcony, two washrooms, and spacious hall.",
+      "amenities": [
+        "Private Balcony",
+        "Two Washrooms",
+        "Living Area",
+        "Free Wi-Fi",
+        "Tea/Coffee Maker"
+      ],
+      "image": "https://images.unsplash.com/photo-1598928506311-c55ded91a20c?auto=format&fit=crop&w=900&q=80",
+      "status": "Available",
+      "floor": 4
+    },
+    {
+      "id": "11",
+      "roomNumber": "501",
+      "type": "Premium",
+      "pricePerNight": 14500,
+      "capacity": 5,
+      "description": "Premium presidential floor unit with two private bedrooms and lounge.",
+      "amenities": [
+        "Two Bedrooms",
+        "Formal Lounge",
+        "Dining Area",
+        "Terrace View",
+        "Pantry",
+        "Free Wi-Fi"
+      ],
+      "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=900&q=80",
+      "status": "Available",
+      "floor": 5
+    },
+    {
+      "id": "12",
+      "roomNumber": "502",
+      "type": "Premium",
+      "pricePerNight": 16000,
+      "capacity": 5,
+      "description": "Executive penthouse with expansive city view, master suite, and study room.",
+      "amenities": [
+        "Two Master Bedrooms",
+        "Private Study",
+        "Kitchenette",
+        "Living Room",
+        "Complimentary Breakfast"
+      ],
+      "image": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=900&q=80",
+      "status": "Occupied",
+      "floor": 5
+    }
+  ],
+  "customers": [
+    {
+      "id": "1",
+      "fullName": "Vikramaditya Singhania",
+      "email": "v.singhania@holdings.in",
+      "phone": "+91 98201 44521",
+      "address": "Flat 14B, Malabar Hill",
+      "city": "Mumbai",
+      "country": "India",
+      "createdAt": "2026-08-14"
+    },
+    {
+      "id": "2",
+      "fullName": "Charlotte Montgomery",
+      "email": "charlotte.m@designstudio.co.uk",
+      "phone": "+44 7911 123456",
+      "address": "24 Kensington Street",
+      "city": "London",
+      "country": "United Kingdom",
+      "createdAt": "2026-09-02"
+    },
+    {
+      "id": "3",
+      "fullName": "Arjun Nambiar",
+      "email": "arjun.nambiar@techventures.io",
+      "phone": "+91 94470 88219",
+      "address": "88 Indiranagar 100ft Road",
+      "city": "Bengaluru",
+      "country": "India",
+      "createdAt": "2026-09-18"
+    },
+    {
+      "id": "4",
+      "fullName": "Dr. Evelyn Reed",
+      "email": "evelyn.reed@healthclinic.org",
+      "phone": "+1 617 555 0192",
+      "address": "450 Beacon Street",
+      "city": "Boston",
+      "country": "United States",
+      "createdAt": "2026-10-01"
+    },
+    {
+      "id": "5",
+      "fullName": "Kabir Malhotra",
+      "email": "kabir.malhotra@businesscorp.com",
+      "phone": "+91 98110 33490",
+      "address": "12 Golf Links",
+      "city": "New Delhi",
+      "country": "India",
+      "createdAt": "2026-10-10"
+    },
+    {
+      "id": "6",
+      "fullName": "Sophia Van Der Berg",
+      "email": "sophia.vanderberg@globaltrade.nl",
+      "phone": "+31 20 890 1234",
+      "address": "Keizersgracht 412",
+      "city": "Amsterdam",
+      "country": "Netherlands",
+      "createdAt": "2026-10-15"
+    },
+    {
+      "id": "7",
+      "fullName": "Ananya Deshmukh",
+      "email": "ananya.d@mediaworks.in",
+      "phone": "+91 98220 77123",
+      "address": "302 Koregaon Park",
+      "city": "Pune",
+      "country": "India",
+      "createdAt": "2026-10-22"
+    }
+  ],
+  "bookings": [
+    {
+      "id": "1",
+      "bookingReference": "BK-8101",
+      "customerId": "1",
+      "roomId": "3",
+      "checkInDate": "2026-10-10",
+      "checkOutDate": "2026-10-14",
+      "numberOfGuests": 2,
+      "numberOfNights": 4,
+      "totalAmount": 14400,
+      "status": "Completed",
+      "specialRequests": "Quiet courtyard facing room for business trip.",
+      "createdAt": "2026-10-02"
+    },
+    {
+      "id": "2",
+      "bookingReference": "BK-8102",
+      "customerId": "3",
+      "roomId": "6",
+      "checkInDate": "2026-10-15",
+      "checkOutDate": "2026-10-18",
+      "numberOfGuests": 2,
+      "numberOfNights": 3,
+      "totalAmount": 16500,
+      "status": "Completed",
+      "specialRequests": "Early check-in at 11:00 AM.",
+      "createdAt": "2026-10-05"
+    },
+    {
+      "id": "3",
+      "bookingReference": "BK-8103",
+      "customerId": "2",
+      "roomId": "2",
+      "checkInDate": "2026-10-28",
+      "checkOutDate": "2026-11-02",
+      "numberOfGuests": 1,
+      "numberOfNights": 5,
+      "totalAmount": 12000,
+      "status": "Confirmed",
+      "specialRequests": "Extra pillow requested.",
+      "createdAt": "2026-10-20"
+    },
+    {
+      "id": "4",
+      "bookingReference": "BK-8104",
+      "customerId": "5",
+      "roomId": "4",
+      "checkInDate": "2026-10-29",
+      "checkOutDate": "2026-11-01",
+      "numberOfGuests": 2,
+      "numberOfNights": 3,
+      "totalAmount": 11400,
+      "status": "Confirmed",
+      "specialRequests": "Double bed required.",
+      "createdAt": "2026-10-24"
+    },
+    {
+      "id": "5",
+      "bookingReference": "BK-8105",
+      "customerId": "4",
+      "roomId": "9",
+      "checkInDate": "2026-10-27",
+      "checkOutDate": "2026-11-03",
+      "numberOfGuests": 3,
+      "numberOfNights": 7,
+      "totalAmount": 59500,
+      "status": "Confirmed",
+      "specialRequests": "Attending medical symposium.",
+      "createdAt": "2026-10-15"
+    },
+    {
+      "id": "6",
+      "bookingReference": "BK-8106",
+      "customerId": "6",
+      "roomId": "12",
+      "checkInDate": "2026-10-30",
+      "checkOutDate": "2026-11-04",
+      "numberOfGuests": 2,
+      "numberOfNights": 5,
+      "totalAmount": 80000,
+      "status": "Confirmed",
+      "specialRequests": "Airport taxi assistance requested.",
+      "createdAt": "2026-10-25"
+    },
+    {
+      "id": "7",
+      "bookingReference": "BK-8107",
+      "customerId": "1",
+      "roomId": "11",
+      "checkInDate": "2026-11-10",
+      "checkOutDate": "2026-11-15",
+      "numberOfGuests": 4,
+      "numberOfNights": 5,
+      "totalAmount": 72500,
+      "status": "Confirmed",
+      "specialRequests": "Family stay.",
+      "createdAt": "2026-10-26"
+    },
+    {
+      "id": "8",
+      "bookingReference": "BK-8108",
+      "customerId": "7",
+      "roomId": "7",
+      "checkInDate": "2026-11-05",
+      "checkOutDate": "2026-11-08",
+      "numberOfGuests": 2,
+      "numberOfNights": 3,
+      "totalAmount": 15600,
+      "status": "Confirmed",
+      "specialRequests": "Late check-out request for 1:00 PM if possible.",
+      "createdAt": "2026-10-28"
+    },
+    {
+      "id": "9",
+      "bookingReference": "BK-8109",
+      "customerId": "3",
+      "roomId": "5",
+      "checkInDate": "2026-11-02",
+      "checkOutDate": "2026-11-06",
+      "numberOfGuests": 2,
+      "numberOfNights": 4,
+      "totalAmount": 16000,
+      "status": "Cancelled",
+      "specialRequests": "Cancelled due to travel schedule change.",
+      "createdAt": "2026-10-22"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
