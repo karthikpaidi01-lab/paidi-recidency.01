@@ -125,28 +125,26 @@ export default function DashboardPage({ onNewBooking, onCheckAvailability }) {
     return <LoadingSpinner message="Loading dashboard data..." />;
   }
 
-  if (errorState) {
-    return (
-      <div className="alert-box alert-error">
-        <AlertCircle size={18} className="alert-icon" />
-        <div>
-          <strong>Database Connection Error</strong>
-          <p>{errorState}</p>
-          <button
-            type="button"
-            className="btn btn-secondary btn-xs"
-            onClick={fetchDashboardData}
-            style={{ marginTop: '0.4rem' }}
-          >
-            Retry Connection
-          </button>
-        </div>
-      </div>
-    );
-  }
-
   return (
     <div className="dashboard-container">
+      {errorState && (
+        <div className="alert-box alert-error">
+          <AlertCircle size={18} className="alert-icon" />
+          <div style={{ flex: 1 }}>
+            <strong>Backend Connection Notice:</strong> {errorState}
+            <div style={{ marginTop: '0.35rem' }}>
+              <button
+                type="button"
+                className="btn btn-secondary btn-xs"
+                onClick={fetchDashboardData}
+              >
+                Retry Connection
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+
       {/* Clean Header Bar: PAIDI RESIDENCY */}
       <div className="dashboard-header-bar">
         <div>

@@ -7,7 +7,7 @@
     "dev": "concurrently -n \"SERVER,CLIENT\" -c \"yellow,cyan\" \"npm run server\" \"npm run client\"",
     "client": "vite",
     "server": "json-server db.json --port 3000",
-    "build": "vite build",
+    "build": "vite build && node -e \"require('fs').copyFileSync('dist/index.html', 'dist/404.html')\"",
     "preview": "vite preview",
     "test": "node test-api.js"
   },
